@@ -9,7 +9,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 
 # Set the calendar ID and time range
-calendar_id = '6l0e6i50kc7loautpstekk4ec0@group.calendar.google.com'
+calendar_id = 'primary'
 start_date = datetime.datetime.utcnow()
 end_date = start_date + datetime.timedelta(weeks=4)
 
